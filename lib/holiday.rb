@@ -15,9 +15,8 @@ holiday_supplies[:spring][:memorial_day] << supply
 end
 
 def add_new_holiday_with_supplies(holiday_supplies, season, holiday_name, supply_array)
-holiday_supplies[season] << holiday_name
-supply_array.each do |supply|
-  holiday_supplies[season][holiday_name]  << supply
+ holiday_hash[season][holiday_name] = supply_array
+ holiday_hash
 end
 end
 
