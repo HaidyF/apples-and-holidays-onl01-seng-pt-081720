@@ -27,11 +27,8 @@ holiday_supplies.collect do |seasons|
 end
 
 def all_supplies_in_holidays(holiday_hash)
-holiday_hash.each do |season, holiday|
-  puts "#{season.capitalize}:"
-  holiday.each do |holiday, item|
-    puts "#{holiday.s.split("_").map {|i| i.capitalizeholiday.to_s.split("_").map{|i| i.capitalize}.join(" ")e}.join(" ")}: #{{item.join(", ")}"
-
+ holiday_hash[season][holiday_name] = supply_array
+ holiday_hash
 end
 
 def all_holidays_with_bbq(holiday_hash)
