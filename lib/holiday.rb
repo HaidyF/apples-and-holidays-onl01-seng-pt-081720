@@ -21,14 +21,11 @@ end
 end
 
 def all_winter_holiday_supplies(holiday_supplies)
-holiday_supplies.collect do |seasons|
-  puts :winter
   end
 end
 
 def all_supplies_in_holidays(holiday_hash)
- holiday_hash[season][holiday_name] = supply_array
- puts holiday_hash
+
 end
 
 def all_holidays_with_bbq(holiday_hash)
