@@ -17,10 +17,8 @@ end
 def add_new_holiday_with_supplies(holiday_supplies, season, holiday_name, supply_array)
 
 end
-end
 
 def all_winter_holiday_supplies(holiday_supplies)
-  end
 end
 
 def all_supplies_in_holidays(holiday_hash)
